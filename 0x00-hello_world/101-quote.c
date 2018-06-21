@@ -12,5 +12,5 @@ int main(void)
 	int len = strlen(STRING);
 
 	write(1, STRING, len);
-	return (0);
+	return (1);
 }
