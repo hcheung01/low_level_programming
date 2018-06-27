@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
+ * jack_bauer - function with no argument
  *
- *
- *
- *
+ * Description: Using for loops to print every minute in 24hr
+ * Return: none
  */
 void jack_bauer(void)
 {
