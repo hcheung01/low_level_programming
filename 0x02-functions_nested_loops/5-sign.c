@@ -1,9 +1,12 @@
 #include "holberton.h"
 
 /**
- * print_sign() is to check if n is greater or lesser
- * int n is the input for function
+ * print_sign - with one argument
+ * @n: is the input for function
  *
+ * Description: if/else to check if n is negative
+ * zero or positive
+ * Return: 1 if greater than 0, 0 if 0, -1 if lesser
  */
 int print_sign(int n)
 {
