@@ -1,10 +1,17 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main - primary function
+ *
+ * Description: fibonnaci number first 98
+ * Return: nothin
+ */
+int main(void)
 {
 	long int a, b, c, i;
 
-	a = 1; b = 2;
+	a = 1;
+	b = 2;
 
 	for (i = 0; i <= 98; i++)
 	{
