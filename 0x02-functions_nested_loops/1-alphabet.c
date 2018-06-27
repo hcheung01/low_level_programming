@@ -1,8 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - check the code for Holberton School students.
  *
+ * Description: Print lower case alphabet from a - z
+ * using a for loop.
  * Return: Always 1.
  */
 void print_alphabet(void)
