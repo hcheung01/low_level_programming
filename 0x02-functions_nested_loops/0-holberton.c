@@ -1,5 +1,12 @@
 #include "holberton.h"
 
+/**
+ * main - primary function
+ *
+ * Description: print string "Holberton"
+ * using a while loop over the array
+ * Return: 1 if the number is positve. 0 otherwise
+ */
 int main(void)
 {
 	int c;
