@@ -10,7 +10,7 @@ int main(void)
 
 	for (n = 0; n <= 98; n++)
 	{
-		for (m = 0; m <= 99; m++)
+		for (m = n + 1; m <= 99; m++)
 		{
 			d1 = n / 10;
 			d2 = n % 10;
