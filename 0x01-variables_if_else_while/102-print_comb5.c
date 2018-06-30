@@ -30,4 +30,5 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
 }
