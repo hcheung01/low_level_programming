@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ *
+ * Description: return all combination of 0 to 99
  */
 int main(void)
 {
