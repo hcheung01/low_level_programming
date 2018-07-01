@@ -4,6 +4,7 @@
  * main - Entry point
  *
  * Description: return all combination of 0 to 99
+ * Return: 0
  */
 int main(void)
 {
