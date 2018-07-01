@@ -22,7 +22,7 @@ int main(void)
 			d4 = m % 10;
 			putchar(d3 + '0');
 			putchar(d4 + '0');
-			if (d1 + d2 != 17 || d3 + d4 != 18)
+			if (n != 98 || m != 99)
 			{
 				putchar(',');
 				putchar(' ');
