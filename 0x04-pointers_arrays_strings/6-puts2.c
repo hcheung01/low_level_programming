@@ -4,7 +4,7 @@
  * puts2 - function with one argument
  * @str: char type pointer
  *
- * Description: prints one char out of 2 of a string
+ * Description: print one char out of 2 of a string
  * Return: na
  */
 void puts2(char *str)
