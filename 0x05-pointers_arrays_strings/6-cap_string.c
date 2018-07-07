@@ -14,8 +14,8 @@ char *cap_string(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[0] >= 'A' && str[0] <= 'Z')
-			i++;
+		if (str[0] >= 'a' && str[0] <= 'z')
+			str[i] = str[i] - 32;
 		switch (str[i])
 		{
 		case ' ':
