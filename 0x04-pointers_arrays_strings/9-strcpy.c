@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * *_strcpy - function with two arguments
+ * _strcpy - function with two arguments
  * @dest: 1st argument char type pointer
  * @src: 2nd argument char type pointer
  *
@@ -13,7 +13,11 @@ char *_strcpy(char *dest, char *src)
 	int i;
 
 	i = 0;
-	while ((dest[i] = src[i]) != '\0')
-		i++;
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+	       	i++;
+	}
+	dest[i] = '\0';
 	return (dest);
 }
