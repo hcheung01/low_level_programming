@@ -10,7 +10,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j;
+	int i, j;
 
 	i = 0;
 	while (s[i])
