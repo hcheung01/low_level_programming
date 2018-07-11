@@ -15,8 +15,3 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 
 void set_string(char **s, char *to);
-
-
-#define false 0
-#define true 1
-typedef int bool; // or #define bool int
