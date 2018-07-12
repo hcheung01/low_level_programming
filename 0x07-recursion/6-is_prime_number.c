@@ -5,13 +5,21 @@ int counter(int count, int n);
  * @n: int type argument
  *
  * Description: find prime number
- * Return: 1 if prime, 0 other
+ * Return: call to counter fuction with arguments
  */
 int is_prime_number(int n)
 {
 	return (counter(2, n));
 }
 
+/**
+ * counter - helper function
+ * @count: int type 1st argument
+ * @n: int type second  argument
+ *
+ * Description: helper function for counter argument
+ * Return: 1 if prime, 0 other
+ */
 int counter(int count, int n)
 {
 	if (n % count == 0 || n < 2)
