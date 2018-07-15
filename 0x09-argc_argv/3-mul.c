@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - function with two arguments
- * @argc - int type argument
- * @argv - char pointer array type argument
+ * @argc: int type argument
+ * @argv: char pointer array type argument
  *
  * Description: prints the result of the multiplication
  * Return: 1
