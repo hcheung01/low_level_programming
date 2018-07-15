@@ -9,7 +9,7 @@
  * Description: adds positive numbers
  * Return: sum value
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i, sum;
 

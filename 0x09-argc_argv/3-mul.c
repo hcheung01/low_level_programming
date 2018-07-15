@@ -8,7 +8,7 @@
  * Description: prints the result of the multiplication
  * Return: 1
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 3)
 	{
