@@ -38,4 +38,5 @@ int main(int argc, char *argv[])
 		final = quarters + dimes + nickels + cent2 + penny;
 		printf("%d\n", final);
 	}
+	return (0);
 }
