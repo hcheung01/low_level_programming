@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	int quarters, dimes, nickels, cent2, penny;
 	int remaining, remaining2, remaining3, final;
 
-	if (argc > 2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
