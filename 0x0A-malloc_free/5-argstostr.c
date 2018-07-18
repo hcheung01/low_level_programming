@@ -1,36 +1,52 @@
-#include <stdio.h>
-#include <ctype.h>
 #include <stdlib.h>
 
+int _strlen(char *s);
 /**
- * main - adds positive numbers
- * @argc: the number of arguments passed
- * @argv: the given arguments
+ * argstostr - concatenates all arguments of the program
+ * @ac: the number of arguments
+ * @av: the given arguments
  *
- * Return: 0 if success, 1 if not
+ * Return: a pointer to a new string, or NULL if it fails
  */
-int main(int argc, char *argv[])
+char *argstostr(int ac, char **av)
 {
-	int c1, c2;
-	int result = 0;
+	int i, j;
+	int k = 0;
+	int len = 0;
+	char *array;
 
-	if (argc == 1)
+	if (ac == 0 || av == NULL)
+		return (NULL);
+
+	for (i = 0; i < ac; i++)
+		len = len + _strlen(av[i]);
+
+	len = len + 1 + ac;
+
+	array = malloc(sizeof(char) * len);
+
+	for (i = 0; i < ac; i++)
 	{
-		printf("0\n");
-		return (0);
+		for (j = 0; av[i][j] != '\0'; j++, k++)
+			array[k] = av[i][j];
+		array[k] = '\n';
+		k++;
 	}
+	array[k] = '\0';
+	return (array);
+}
 
-	for (c1 = 1; c1 < argc; c1++)
-	{
+/**
+ * _strlen - Returns the length of a string
+ * @s: The given string
+ *
+ * Return: The length of the string
+ */
+int _strlen(char *s)
+{
+	int total;
 
-		for (c2 = 0; argv[c1][c2] != '\0'; c2++)
-			if (!isdigit(argv[c1][c2]))
-			{
-				printf("Error\n");
-				return (1);
-			}
-		result = result + atoi(argv[c1]);
-	}
-	printf("%i\n", result);
-	return (0);
+	for (total = 0; s[total] != '\0'; total++)
+		;
+	return (total);
 }
