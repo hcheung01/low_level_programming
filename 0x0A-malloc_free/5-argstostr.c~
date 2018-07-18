@@ -1,0 +1,39 @@
+#include <stdlib.h>
+#include <stdio.h>
+/**
+ * *argstostr - function with two arguments
+ * @ac: int type argument
+ * @av: char double pointer type
+ *
+ * Description: concatenates all the arguments
+ * Return: a pointer to a new string or Null if fails
+ */
+char *argstostr(int ac, char **av)
+{
+
+	char *arr;
+	int i, j, k, len, a, count;
+
+	count = 0;
+	for (i = 0; i < ac; i++)
+		for (a = 0; av[a] != '\0'; a++)
+		{
+			len++;
+		}
+
+	len = len + 1 + ac;
+	arr = malloc(sizeof(char) * len);
+	printf("%d", len);
+	for (k = 0; k < ac; k++)
+	{
+		for (j = 0; av[k][j] != '\0'; j++)
+		{
+			arr[count] = *av[j];
+			count++;
+		}
+		arr[count] = '\n';
+		count++;
+	}
+	arr[count] = '\0';
+	return (arr);
+}
