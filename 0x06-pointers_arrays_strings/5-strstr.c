@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * _strstr - function with two argument
  * @haystack: char type pointer
@@ -10,18 +10,28 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int index = 0, check;
+	int i, j;
 
-	while (*(haystack + index) != '\0')
+	i = 0;
+	while (haystack[i] != '\0')
 	{
-		check = 0;
-		while (*(needle + checker) != '\0')
+		j = 0;
+		while (needle[j] != '\0')
 		{
-			if (*(haystack + index + checker) == *(needle + checker))
+			if (haystack[i + j] == needle[j])
+			{
+				j++;
+			}
+			else if (haystack[i + j] != needle[j])
+			{
+				break;
+			}
+			else
+				return ('\0');
 		}
-		if (*(needle + checker) == '\0')
-			return (haystack + 1);
-		index++;
+		if (needle[j] == '\0')
+			return (haystack + i);
+		i++;
 	}
-	return ('\0');
+	return (NULL);
 }
