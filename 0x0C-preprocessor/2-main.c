@@ -1,7 +1,5 @@
 #include <stdio.h>
-#ifndef FILE
-#define FILE __FILE__
-#endif
+
 /**
  * main - function with no arguments
  *
@@ -10,5 +8,6 @@
  */
 int main(void)
 {
-	printf("%s\n", FILE);
+	printf("%s\n", __FILE__);
+	return (0);
 }
