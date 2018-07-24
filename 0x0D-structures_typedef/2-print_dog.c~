@@ -1,0 +1,25 @@
+#include "dog.h"
+#include "stdio.h"
+
+/**
+ * print_dog - function with 1 argument
+ * @d: structure pointer
+ *
+ * Description: prints a struct
+ * Return: na
+ */
+void print_dog(struct dog *d)
+{
+	if (d != NULL)
+	{
+		if (d->name == NULL)
+			printf("Name: (nill)");
+		else
+			printf("Name: %s", d->name);
+		printf("Age: %f", d->age);
+		if (d->owner == NULL)
+			printf("Owner: (nil)");
+		else
+			printf("Owner: %s", d->owner);
+	}
+}
