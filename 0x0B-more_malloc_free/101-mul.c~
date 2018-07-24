@@ -1,0 +1,36 @@
+#include <stdlib.h>
+#include "holberton.h"
+#include <stdio.h>
+
+/**
+ * main - function with two arguments
+ * @argc: argument count
+ * @argv: argument value
+ *
+ * Description: program that multiplies two positive numbers
+ * Return: value
+ */
+int main(int argc, char *argv[])
+{
+	int i, j, result;
+
+	if (argc != 3)
+	{
+		printf("Error\n");
+		exit (98);
+	}
+
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] <= '0' || argv[i][j] >= '9')
+			{
+				printf("Error\n");
+				exit (98);
+			}
+		}
+	}
+	result = malloc(sizeof(char) * (atoi(argv[1]) * atoi(argv[2])));
+	printf("%i\n", result);
+}
