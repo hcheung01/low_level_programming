@@ -9,7 +9,7 @@
  *
  * Description: store different data types
  */
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
