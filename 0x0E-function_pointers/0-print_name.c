@@ -1,6 +1,3 @@
-#include <stddef.h>
-#include "function_pointers.h"
-
 /**
  * print_name - function with two arguments
  * @name: char type pointer to string
