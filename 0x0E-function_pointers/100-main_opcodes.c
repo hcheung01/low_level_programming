@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 	}
 	while (count < atoi(argv[1]))
 	{
-		printf("%x", *((unsigned char *)main + count));
+		printf("%02x", *((unsigned char *)main + count));
 		count++;
 		if (atoi(argv[1]) > count)
 		{
