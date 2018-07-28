@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 
 	va_start(ap, format);
 	j = 0;
-	while (format[j] != '\0')
+	while (format[j] && format)
 	{
 		space = "";
 		if (format[j + 1] != '\0')
@@ -36,8 +36,8 @@ void print_all(const char * const format, ...)
 			printf("%f%s", va_arg(ap, double), space);
 			break;
 		case 's':
-			str = va_arg(ap, char*);
-			if (str == NULL)
+			str = va_arg(ap, char *);
+			if (!str || !*str)
 				str = "(nil)";
 			printf("%s%s", str, space);
 			break;
