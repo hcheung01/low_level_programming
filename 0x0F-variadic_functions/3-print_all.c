@@ -13,32 +13,34 @@ void print_all(const char * const format, ...)
 {
 	int j;
 	char *s;
+	char *space;
 	va_list ap;
 
 	va_start(ap, format);
 	j = 0;
 	while (format[j] != '\0')
 	{
+		space = "";
+		if (format[j + 1])
+			space = ", ";
 		switch (format[j])
 		{
 		case 'c':
-			printf("%c", va_arg(ap, int));
+			printf("%c%s", va_arg(ap, int), space);
 			break;
 		case 'i':
-			printf("%i", va_arg(ap, int));
+			printf("%i%s", va_arg(ap, int), space);
 			break;
 		case 'f':
-			printf("%f", va_arg(ap, double));
+			printf("%f%s", va_arg(ap, double), space);
 			break;
 		case 's':
 			s = va_arg(ap, char *);
-			if (!s || !*s)
+			if (!s)
 				s = "(nil)";
-			printf("%s", s);
+			printf("%s%s", s, space);
 			break;
 		}
-		if (format[j + 1] != '\0')
-			printf(", ");
 		j++;
 	}
 	printf("\n");
