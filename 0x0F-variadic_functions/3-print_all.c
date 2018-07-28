@@ -21,7 +21,7 @@ void print_all(const char * const format, ...)
 	while (format[j] && format)
 	{
 		space = "";
-		if (format[j + 1] != '\0')
+		if (format[j + 1])
 			space = ", ";
 		switch (format[j])
 		{
