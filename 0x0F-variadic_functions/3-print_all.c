@@ -12,16 +12,16 @@
 void print_all(const char * const format, ...)
 {
 	int j;
-	char *s;
+	char *str;
 	char *space;
 	va_list ap;
 
 	va_start(ap, format);
 	j = 0;
-	while (format[j] && format)
+	while (format[j] != '\0')
 	{
 		space = "";
-		if (format[j + 1])
+		if (format[j + 1] != '\0')
 			space = ", ";
 		switch (format[j])
 		{
@@ -36,10 +36,10 @@ void print_all(const char * const format, ...)
 			printf("%f%s", va_arg(ap, double), space);
 			break;
 		case 's':
-			s = va_arg(ap, char*);
-			if (s == NULL)
-				s = "(nil)";
-			printf("%s%s", s, space);
+			str = va_arg(ap, char*);
+			if (str == NULL)
+				str = "(nil)";
+			printf("%s%s", str, space);
 			break;
 		}
 		j++;
