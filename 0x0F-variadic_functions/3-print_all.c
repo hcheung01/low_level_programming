@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 
 	va_start(ap, format);
 	j = 0;
-	while (format[j] && format[j])
+	while (format[j] && format)
 	{
 		space = "";
 		if (format[j + 1])
