@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 
@@ -23,4 +25,5 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
+char *_strdup(const char *str);
 #endif
