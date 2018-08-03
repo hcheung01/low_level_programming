@@ -1,8 +1,8 @@
-section.text
-	global main		;declared for linker (ld)
+section .text
+	global main
 
 main:
-	mov	edx, len	;len of the string
+	mov	edx, len
 	mov	ecx, msg	;message variable
 	mov 	ebx, 1		;write to standard output
 	mov	eax, 4
