@@ -33,6 +33,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		if (count == (idx - 1))
 			break;
+		else
+			return (NULL);
 		count++;
 		cursor = cursor->next;
 	}
