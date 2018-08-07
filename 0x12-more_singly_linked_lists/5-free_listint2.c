@@ -11,13 +11,11 @@ void free_listint2(listint_t **head)
 {
 	listint_t *traverse;
 
-	if (*head)
+	while (*head)
 	{
-		while (*head)
-		{
-			traverse = (*head)->next;
-			free(*head);
-			*head = traverse;
-		}
+		traverse = (*head)->next;
+		free(*head);
+		*head = traverse;
 	}
+	*head = NULL;
 }
