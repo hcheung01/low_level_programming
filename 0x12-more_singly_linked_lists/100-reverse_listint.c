@@ -32,5 +32,6 @@ listint_t *reverse_listint(listint_t **head)
 	}
 	(*head)->next = linker;
 	linker->next = prev;
-	return (*head);
+	linker = *head;
+	return (linker);
 }
