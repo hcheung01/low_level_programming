@@ -15,6 +15,8 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int power = 0;
 	int count = 0;
 
+	if (!b)
+		return (0);
 	/* Get length of string */
 	while (b[count] != '\0')
 	{
