@@ -9,24 +9,9 @@
  */
 void print_binary(unsigned long int n)
 {
-	int count, value;
-	unsigned int num = n;
-
-	if (n == 0)
-		_putchar('0');
-	while (num > 0)
+	if (n != 0)
 	{
-		num = num >> 1;
-		count++;
+		print_binary(n >> 1);
 	}
-	count--;
-	while (count >= 0)
-	{
-		value = n >> count;
-		if (value & 1)
-			_putchar('1');
-		else
-			_putchar('0');
-		count--;
-	}
+	_putchar((n & 1) + '0');
 }
