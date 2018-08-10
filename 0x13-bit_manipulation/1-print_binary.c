@@ -9,7 +9,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int count, value;
+	int count, value;
 	unsigned int num = n;
 
 	if (n == 0)
