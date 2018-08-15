@@ -21,8 +21,16 @@ int create_file(const char *filename, char *text_content)
 	if (fd == -1)
 		return (-1);
 
-	while (text_content[count] != '\0')
-		count++;
+	if (text_content != NULL)
+	{
+		while (text_content[count] != '\0')
+			count++;
+	}
+	else
+	{
+		close(fd);
+		return (1);
+	}
 
 	output = write(fd, text_content, count);
 	if (output == -1 || output != count)
