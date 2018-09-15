@@ -38,7 +38,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	/* insert node */
 	if (cursor->next != NULL)
 		cursor->next->prev = new;
-        new->prev = cursor;
+	new->prev = cursor;
 	new->next = cursor->next;
 	cursor->next = new;
 
