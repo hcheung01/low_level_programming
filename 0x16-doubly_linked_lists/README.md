@@ -25,7 +25,7 @@ File|Task
 ---
 Directory Name | Description
 ---|---
-0x16-doubly_linked_lists | directory holding all files for doubly linked list
+/0x16-doubly_linked_lists | directory holding all files for doubly linked list
 
 ## Author
 Heindrick Cheung
