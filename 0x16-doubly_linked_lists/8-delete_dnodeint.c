@@ -2,8 +2,8 @@
 
 /**
  * delete_dnodeint_at_index - function with two arguments
- * @head - pointer to double linked list
- * @index - index position to delete node
+ * @head: pointer to double linked list
+ * @index: index position to delete node
  *
  * Description: delete node at index position
  * Return: 1 if succeeded or -1 if failed
