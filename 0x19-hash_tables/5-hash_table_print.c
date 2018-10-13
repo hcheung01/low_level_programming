@@ -14,9 +14,8 @@ void hash_table_print(const hash_table_t *ht)
 
 	if (!ht)
 		return;
-
 	printf("{");
-        while (index < ht->size)
+        while (index < ht->size && ht->array[index] != 0)
         {
                 if (ht->array[index] != NULL)
                 {
@@ -28,12 +27,11 @@ void hash_table_print(const hash_table_t *ht)
                 index++;
         }
 
-	if (ht->size == index)
+	if (index == ht->size)
 	{
 		printf("}\n");
 		return;
 	}
-
 	while (index < ht->size)
 	{
 		ptr = ht->array[index];
