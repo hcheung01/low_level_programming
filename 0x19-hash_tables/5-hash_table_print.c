@@ -28,6 +28,12 @@ void hash_table_print(const hash_table_t *ht)
                 index++;
         }
 
+	if (ht->size == index)
+	{
+		printf("}\n");
+		return;
+	}
+
 	while (index < ht->size)
 	{
 		ptr = ht->array[index];
