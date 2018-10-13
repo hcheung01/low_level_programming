@@ -15,17 +15,17 @@ void hash_table_print(const hash_table_t *ht)
 	if (!ht)
 		return;
 	printf("{");
-        while (index < ht->size && ht->array[index] != 0)
-        {
-                if (ht->array[index] != NULL)
-                {
-                        ptr = ht->array[index];
-                        printf("'%s': '%s'", ptr->key, ptr->value);
-                        index++;
-                        break;
-                }
-                index++;
-        }
+	while (index < ht->size && ht->array[index] != 0)
+	{
+		if (ht->array[index] != NULL)
+		{
+			ptr = ht->array[index];
+			printf("'%s': '%s'", ptr->key, ptr->value);
+			index++;
+			break;
+		}
+		index++;
+	}
 
 	if (index == ht->size)
 	{
