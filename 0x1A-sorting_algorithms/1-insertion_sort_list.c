@@ -15,12 +15,12 @@ void insertion_sort_list(listint_t **list)
 		return;
 
 	ptr = (*list)->next;
-	while (ptr->next)
+	while (ptr)
 	{
 		while (ptr->prev && ptr->prev->n > ptr->n)
 		{
 		        ptr->prev->next = ptr->next;
-			if (ptr->next != NULL)
+			if (ptr->next)
 				ptr->next->prev = ptr->prev;
 			ptr->next = ptr->prev;
 			ptr->prev = ptr->prev->prev;
