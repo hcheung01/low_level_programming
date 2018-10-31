@@ -12,6 +12,17 @@ void quick_sort(int *array, size_t size)
 {
 	sort(array, 0, size - 1, size);
 }
+
+/**
+ * sort - sorting algorithm
+ * @array: unsorted list of integers
+ * @l: low index
+ * @h: last index
+ * @size: size of array
+ *
+ * Description: recursion method for divide and conquer array and partition
+ * Return: void
+ */
 void sort(int *array, int l, int h, size_t size)
 {
 	int p = 0;
@@ -24,6 +35,16 @@ void sort(int *array, int l, int h, size_t size)
 	}
 }
 
+/**
+ * partition - lomuta partition
+ * @array: unsorted list of integers
+ * @l: low index
+ * @h: last index
+ * @size: size of array
+ *
+ * Description: swap elements comparing to last elem pivot
+ * Return: i
+ */
 unsigned int partition(int *array, int l, int h, size_t size)
 {
 	int pivot = array[h];
@@ -36,19 +57,29 @@ unsigned int partition(int *array, int l, int h, size_t size)
 		{
 			if (i != j)
 			{
-				swap(&array[i], &array[j]);
+				swapper(&array[i], &array[j]);
 				print_array(array, size);
 			}
 			i++;
 		}
 	}
-	swap(&array[i], &array[h]);
+	swapper(&array[i], &array[h]);
 	return (i);
 }
 
-void swap(int* a, int* b)
+/**
+ * swapper - swap index
+ * @a: pointer to index of an array
+ * @b: pointer to index of an array
+ *
+ * Description: swap elements
+ * Return: na
+ */
+void swapper(int *a, int *b)
 {
-	int t = *a;
+	int t;
+
+	t = *a;
 	*a = *b;
 	*b = t;
 }

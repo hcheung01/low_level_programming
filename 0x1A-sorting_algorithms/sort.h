@@ -28,5 +28,5 @@ void quick_sort(int *array, size_t size);
 void sort(int *array, int l, int h, size_t size);
 void quick_sort(int *array, size_t size);
 unsigned int partition(int *array, int l, int h, size_t size);
-void swap(int* a, int* b);
+void swapper(int *a, int *b);
 #endif
