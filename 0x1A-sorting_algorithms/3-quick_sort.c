@@ -55,7 +55,7 @@ unsigned int partition(int *array, int l, int h, size_t size)
 	{
 		if (array[j] < pivot)
 		{
-			if (i != j)
+			if (array[i] != array[j])
 			{
 				swapper(&array[i], &array[j]);
 				print_array(array, size);
