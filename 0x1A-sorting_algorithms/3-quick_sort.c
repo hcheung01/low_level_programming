@@ -10,6 +10,8 @@
  */
 void quick_sort(int *array, size_t size)
 {
+	if (size < 2)
+		return;
 	sort(array, 0, size - 1, size);
 }
 
@@ -55,7 +57,7 @@ unsigned int partition(int *array, int l, int h, size_t size)
 	{
 		if (array[j] < pivot)
 		{
-			if (array[i] != array[j] && i != j)
+			if (i != j && array[i] != array[j])
 			{
 				swapper(&array[i], &array[j]);
 				print_array(array, size);
@@ -63,7 +65,7 @@ unsigned int partition(int *array, int l, int h, size_t size)
 			i++;
 		}
 	}
-	if (array[i] != array[h] && i != h)
+	if (i != h && array[i] != array[h])
 	{
 		swapper(&array[i], &array[h]);
 		print_array(array, size);
