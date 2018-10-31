@@ -25,7 +25,7 @@ void quick_sort(int *array, size_t size)
  */
 void sort(int *array, int l, int h, size_t size)
 {
-	int p = 0;
+	int p;
 
 	if (l < h)
 	{
@@ -51,7 +51,7 @@ unsigned int partition(int *array, int l, int h, size_t size)
 	int i = l;
 	int j;
 
-	for (j = l; j <= h; j++)
+	for (j = l; j < h; j++)
 	{
 		if (array[j] < pivot)
 		{
@@ -63,7 +63,11 @@ unsigned int partition(int *array, int l, int h, size_t size)
 			i++;
 		}
 	}
-	swapper(&array[i], &array[h]);
+	if (array[i] != array[h])
+	{
+		swapper(&array[i], &array[h]);
+		print_array(array, size);
+	}
 	return (i);
 }
 
