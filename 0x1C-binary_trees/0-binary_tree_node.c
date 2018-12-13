@@ -2,7 +2,7 @@
 
 /**
  * *binary_tree_node - create node
- * @*parent: pointer to binary tree
+ * @parent: pointer to binary tree
  * @value: value to insert into node
  *
  * Description: insert node into binary tree
