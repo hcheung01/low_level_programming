@@ -3,7 +3,7 @@
 /**
  * binary_tree_preorder - traversal method
  * @tree: pointer to tree
- * @(*func)(int): function pointer
+ * @func: function pointer
  *
  * Description: using pre-order method to traverse the tree
  * Return: na
