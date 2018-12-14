@@ -5,7 +5,7 @@ int findDepth(const binary_tree_t *tree);
 int total_nodes(const binary_tree_t *tree);
 /**
  * binary_tree_is_perfect - check tree
- * tree: pointer to root node
+ * @tree: pointer to root node
  *
  * Description: check if binary tree is perfect
  * Return: 0 if tree is null or 1 true
@@ -25,6 +25,13 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	return (1);
 }
 
+/**
+ * total_nodes - count nodes
+ * @tree: pointer to node
+ *
+ * Description: count total nodes in tree
+ * Return: total count or NULL
+ */
 int total_nodes(const binary_tree_t *tree)
 {
 	int total = 0;
@@ -36,6 +43,13 @@ int total_nodes(const binary_tree_t *tree)
 	return (total);
 }
 
+/**
+ * findDepth - find depth on one side
+ * @tree: pointer to tree
+ *
+ * Description: calculate depth of tree
+ * Return: depth
+ */
 int findDepth(const binary_tree_t *tree)
 {
 	int d = 0;
@@ -48,6 +62,13 @@ int findDepth(const binary_tree_t *tree)
 	return (d);
 }
 
+/**
+ * base_power - calculate math
+ * @power: int input
+ *
+ * Description: calculate total nodes of a perfect tree
+ * Return: total nodes based on depth
+ */
 int base_power(int power)
 {
 	int base = 2, result = 1;
