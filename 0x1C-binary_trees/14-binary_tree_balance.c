@@ -26,13 +26,10 @@ int binary_tree_balance(const binary_tree_t *tree)
  */
 int help1(const binary_tree_t *tree)
 {
-	int l;
-
 	if (tree == NULL)
 		return (0);
 
-	l = help1(tree->left);
-	return (l + 1);
+	return (help1(tree->left) + 1);
 }
 
 /**
@@ -44,11 +41,8 @@ int help1(const binary_tree_t *tree)
  */
 int help2(const binary_tree_t *tree)
 {
-	int r;
-
 	if (tree == NULL)
 		return (0);
 
-	r = help2(tree->right);
-	return (r + 1);
+	return (help2(tree->right) + 1);
 }
