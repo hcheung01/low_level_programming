@@ -19,6 +19,16 @@ int binary_search(int *array, size_t size, int value)
 	return (-1);
 }
 
+/**
+ * bs_helper - helper function for bsearch
+ * @array: array of integer values
+ * @key: key to match array element
+ * @lower: subarray before mid
+ * @higher: subarray after mid
+ *
+ * Description: Recursively split array in halfs until matching elem found
+ * Return: -1 if value not present or array is NULL OR index if found
+ */
 int bs_helper(int *array, int key, int lower, int higher)
 {
 	int i;
@@ -27,14 +37,14 @@ int bs_helper(int *array, int key, int lower, int higher)
 	if (lower + 1 == higher)
 		return (-1);
 
-        printf("Searching in array: ");
-	for (i = lower+1; i < higher; i++)
-        {
-                printf("%d", array[i]);
+	printf("Searching in array: ");
+	for (i = lower + 1; i < higher; i++)
+	{
+		printf("%d", array[i]);
 		if (i + 1 < higher)
 			printf(", ");
-        }
-        printf("\n");
+	}
+	printf("\n");
 
 	mid = (lower + higher) / 2;
 	if (array[mid] == key)
