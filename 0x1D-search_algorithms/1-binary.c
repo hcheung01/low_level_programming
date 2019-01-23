@@ -13,13 +13,13 @@ int binary_search(int *array, size_t size, int value)
 {
 	int search;
 
-	search = helper(array, value, -1, size);
+	search = bs_helper(array, value, -1, size);
 	if (search)
 		return (search);
 	return (-1);
 }
 
-int helper(int *array, int key, int lower, int higher)
+int bs_helper(int *array, int key, int lower, int higher)
 {
 	int i;
 	int mid;
@@ -41,7 +41,7 @@ int helper(int *array, int key, int lower, int higher)
 		return (mid);
 
 	if (key < array[mid])
-		return (helper(array, key, lower, mid));
+		return (bs_helper(array, key, lower, mid));
 	else
-		return (helper(array, key, mid, higher));
+		return (bs_helper(array, key, mid, higher));
 }
