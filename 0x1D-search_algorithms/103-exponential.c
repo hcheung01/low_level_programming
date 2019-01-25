@@ -22,7 +22,8 @@ int exponential_search(int *array, size_t size, int value)
 		printf("Value checked array[%d] = [%d]\n", bound, array[bound]);
 		bound *= 2;
 	}
-
+	printf("Value found between indexes [%d] and [%d]\n",
+	       (bound / 2), min(bound, size - 1));
 	return (bs_helper(array, value, (bound / 2 - 1), min(bound + 1, size)));
 }
 
