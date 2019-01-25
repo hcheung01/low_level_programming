@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * binary_search - search algorithm
+ * advanced_binary - search algorithm
  * @array: array of integer values
  * @size: size of the array
  * @value: to find matching element
@@ -35,12 +35,12 @@ int bs_helper2(int *array, int key, int low, int high)
 	{
 		mid = low + (high - low) / 2;
 		helper2(array, low, high);
-		if (( mid == 0 || key > array[mid - 1]) && array[mid] == key)
-			return mid;
+		if ((mid == 0 || key > array[mid - 1]) && array[mid] == key)
+			return (mid);
 		else if (key > array[mid])
-			return bs_helper2(array, key, (mid + 1), high);
+			return (bs_helper2(array, key, (mid + 1), high));
 		else
-			return bs_helper2(array, key, low, mid);
+			return (bs_helper2(array, key, low, mid));
 	}
 	return (-1);
 }
@@ -50,7 +50,6 @@ int bs_helper2(int *array, int key, int low, int high)
  * @array: array of integer values
  * @low: lower half of subarray
  * @high: upper half of subarray
- * @key: key to match element in array
  *
  * Description: print sub array for each call
  * Return: na voided function
