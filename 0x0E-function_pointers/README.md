@@ -11,6 +11,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
+function_pointers.h | header file with function prototypes the simple operations program
 0-print_name.c | function that prints a name
 1-array_iterator.c | executes a function given as a parameter on each element of an array
 2-int_index.c | searches for an integer
@@ -21,13 +22,14 @@ File|Task
 ---
 Directory Name | Description
 ---|---
-holbertonschool-low_level_programming/0x0E-function_pointers/ | Main files for all functions
+holbertonschool-low_level_programming/0x0E-function_pointers/ | Main folder for all files
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
 ## More Info
 All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
+Make sure header files includes all function prototypes related to the program
 
 ## Author
 Heindrick Cheung
