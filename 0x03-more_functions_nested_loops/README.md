@@ -36,8 +36,11 @@ Directory Name | Description
 ---|---
 0x03-more_functions_nested_loops | main folder with all .c files and one header file
 
-## Compile
-Please use gcc command to compile all .c files
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
 
 ## Author
 Heindrick Cheung
