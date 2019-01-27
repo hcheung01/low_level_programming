@@ -36,8 +36,11 @@ Directory Name | Description
 ---|---
 0x00-hello_world | Main folder for all scripts and .c files
 
-## Compile
-* All .c files was compiled using gcc
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
 
 ## Author
 Heindrick Cheung
