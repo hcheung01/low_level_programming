@@ -13,6 +13,11 @@ File|Task
 holberton.h | header file with all function prototypes in this directory
 create_static_lib.sh | creates a static library called liball.a from all the .c files
 libholberton.a | static library created including all functions I created before and listed below:
+
+## Functions included in my compiled static libary
+---
+Functions
+---
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
