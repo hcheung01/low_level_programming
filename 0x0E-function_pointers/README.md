@@ -1,4 +1,4 @@
-#0x0E. C - Function pointers
+# 0x0E. C - Function pointers
 ---
 ## Description
 
@@ -11,17 +11,23 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-0-print_name.c
-1-array_iterator.c
-2-int_index.c
-3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h
-100-main_opcodes.c
+0-print_name.c | function that prints a name
+1-array_iterator.c | executes a function given as a parameter on each element of an array
+2-int_index.c | searches for an integer
+3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h | performs simple operations: add, sub, mul, div, mod
+100-main_opcodes.c | prints the opcodes of its own main function
 
 ## Directories
 ---
 Directory Name | Description
 ---|---
 holbertonschool-low_level_programming/0x0E-function_pointers/ | Main files for all functions
+
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
 
 ## Author
 Heindrick Cheung
