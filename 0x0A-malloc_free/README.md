@@ -1,4 +1,4 @@
-#0x0A. C - malloc, free
+# 0x0A. C - malloc, free
 ---
 ## Description
 
