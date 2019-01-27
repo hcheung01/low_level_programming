@@ -18,9 +18,13 @@ libholberton.a | static library created including all function prototypes in hol
 ---
 Directory Name | Description
 ---|---
-| main folder with all C files, .sh files and a header file
+0x08-static_libraries | main folder with all C files, .sh files and a header file
 
 ## How to compile
+Static libary is compiled with the following commands:
+ar -t <library.a>
+nm <library.a>
+
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
 ## More Info
