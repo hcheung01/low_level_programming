@@ -12,6 +12,7 @@ This project in the High Level Programming series is about:
 ---
 File|Task
 ---|---
+holberton.h | header file with all function prototypes in this directory
 libholberton.so | dynamic library with all my functions
 holberton.h | primary header file with all function prototypes
 1-create_dynamic_lib.sh | script to create library
@@ -21,6 +22,14 @@ holberton.h | primary header file with all function prototypes
 Directory Name | Description
 ---|---
 holbertonschool-low_level_programming/0x17-dynamic_libraries | all files for .so
+
+## How to compile C files for dynamic library
+gcc -g -fPIC -Wall -Werror -Wextra -pedantic *.c -shared -o <libary.so>
+nm -D --defined-only <library.so>
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
+For Bash files, the first line of all my files should is exactly #!/bin/bash and executable
 
 ## Author
 Heindrick Cheung
