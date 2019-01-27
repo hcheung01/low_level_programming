@@ -1,30 +1,38 @@
-holbertonschool-low_level_programming
+# 0x06. C - Even more pointers, arrays and strings
+---
+## Description
 
-0x06. C - Even more pointers, arrays and strings
+This project in the Low Level Programming series is about:
+* What are pointers to pointers and how to use them
+* What are multidimensional arrays and how to use them
+* What are the most common C standard library functions to manipulate strings
 
-Description
+## Files
+---
+File|Task
+---|---
+0-memset.c | fills memory with a constant byte
+1-memcpy.c | copies memory area
+2-strchr.c | locates a character in a string
+3-strspn.c | gets the length of a prefix substring
+4-strpbrk.c | searches a string for any of a set of bytes
+5-strstr.c | locates a substring
+7-print_chessboard.c | prints the chessboard
+8-print_diagsums.c | prints the sum of the two diagonals of a square matrix of integers
+9-set_string.c | sets the value of a pointer to a char
+101-crackme_password | contains the password for the crackme2 executable
 
-What are pointers to pointers and how to use them
-What are multidimensional arrays and how to use them
-What are the most common C standard library functions to manipulate strings
+## Directories
+---
+Directory Name | Description
+---|---
+0x06-pointers_arrays_strings | main folder with all C files and a header file
 
-Files
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
-0-memset.c
-1-memcpy.c
-2-strchr.c
-3-strspn.c
-4-strpbrk.c
-5-strstr.c
-7-print_chessboard.c
-8-print_diagsums.c
-9-set_string.c
-101-crackme_password
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
 
-Directories
-
-holbertonschool-low_level_programming/0x06-pointers_arrays_strings
-
-Author
-
+## Author
 Heindrick Cheung
