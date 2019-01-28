@@ -10,10 +10,14 @@ This project in the Low Level Programming series is about:
 * What are the different traversal methods to go through a binary tree
 * What is a complete, a full, a perfect, a balanced binary tree
 
+## Data structures used
+* Linked lists - each node will have three pointers(parent, left, right) and a int value
+
 ## Files
 ---
 File|Task
 ---|---
+binary_trees.h | header file with all function prototypes
 0-binary_tree_node.c | creates a binary tree node
 1-binary_tree_insert_left.c | inserts a node as the left-child of another node
 2-binary_tree_insert_right.c | inserts a node as the right-child of another node
@@ -39,6 +43,13 @@ File|Task
 Directory Name | Description
 ---|---
 0x1C-binary_trees | Main folder with all .c files
+
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
+All header files is guarded
 
 ## Author
 Heindrick Cheung
