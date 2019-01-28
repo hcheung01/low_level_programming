@@ -2,7 +2,7 @@
 ---
 ## Description
 
-This project in the High Level Programming series is about:
+This project in the Low Level Programming series is about:
 * What is a doubly linked list
 * How to use doubly linked lists
 * Start to look for the right source of information without too much help
@@ -11,6 +11,7 @@ This project in the High Level Programming series is about:
 ---
 File|Task
 ---|---
+lists.h | header file with all function prototypes in this directory
 0-print_dlistint.c | prints all the elements of a doubly linked lists
 1-dlistint_len.c | returns number of elements
 2-add_dnodeint.c | add a node at the beginning of doubly linked lists
@@ -25,7 +26,14 @@ File|Task
 ---
 Directory Name | Description
 ---|---
-/0x16-doubly_linked_lists | directory holding all files for doubly linked list
+/0x16-doubly_linked_lists | directory holding all C files and a header file for this project 
+
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
+All header files is guarded
 
 ## Author
 Heindrick Cheung
