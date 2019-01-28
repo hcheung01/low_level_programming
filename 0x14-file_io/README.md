@@ -26,7 +26,14 @@ File|Task
 ---
 Directory Name | Description
 ---|---
-/0x14-file_io | directory with all files descripter functions
+/0x14-file_io | directory with all C files with files descripter functions
+
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
+All header files is guarded
 
 ## Author
 Heindrick Cheung
