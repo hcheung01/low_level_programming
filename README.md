@@ -1,4 +1,4 @@
-## Holberton school Low Level Track
+## Low-Level programming & Algorithm Track at Holberton School
 
 ## About
 This repository is one of the several tracks that I'm learning to become a Full Stack Software Engineer at Holberton School and below is a tree diagram of all files of what I've been working on:
@@ -331,7 +331,3 @@ This repository is one of the several tracks that I'm learning to become a Full 
 
 ## Author
 All files is maintained and owned by Heindrick Cheung
-
-
-## All folders and files
-```bash
