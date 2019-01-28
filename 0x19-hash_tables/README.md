@@ -2,7 +2,7 @@
 ---
 ## Description
 
-This project in the High Level Programming series is about:
+This project in the Low Level Programming series is about:
 * What is a hash function
 * What makes a good hash function
 * What is a hash table, how do they work and how to use them
@@ -28,6 +28,13 @@ hash_tables.h | header file
 Directory Name | Description
 ---|---
 0x19-hash_tables | Main folder with all files for hash table
+
+## How to compile
+gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+
+## More Info
+All files is formatted Betty style and checked using betty-style.pl and betty-doc.pl
+All header files is guarded
 
 ## Author
 Heindrick Cheung
