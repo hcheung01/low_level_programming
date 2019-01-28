@@ -293,27 +293,15 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   └── README.md
 ├── 0x1D-search_algorithms
 │   ├── 0-linear.c
-│   ├── 100-jump
 │   ├── 100-jump.c
-│   ├── 100-jumpcopy2.c
-│   ├── 100-jumpcopy3.c
 │   ├── 100-jumpcopy.c
-│   ├── 100-main.c
 │   ├── 101-O
-│   ├── 102-interpolation
 │   ├── 102-interpolation.c
-│   ├── 102-interpolation.c~
 │   ├── 102-main.c
 │   ├── 103-exponential
 │   ├── 103-exponential.c
-│   ├── 103-exponential.c~
-│   ├── 103-main.c
-│   ├── 104-advanced_binary
 │   ├── 104-advanced_binary.c
-│   ├── 104-advanced_binary.c~
-│   ├── 104-main.c
 │   ├── 107-O
-│   ├── 107-O~
 │   ├── 1-binary.c
 │   ├── 2-O
 │   ├── 3-O
@@ -321,7 +309,6 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 5-O
 │   ├── 6-O
 │   ├── README.md
-│   ├── #search_algos.h#
 │   └── search_algos.h
 ├── Betty
 ├── README.md
