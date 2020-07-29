@@ -21,7 +21,7 @@ File|Task
 6-cap_string.c | capitalizes all words of a string
 7-leet.c | encodes a string into 1337
 8-rot13.c | encodes a string using rot13
-holberton.h | header file with all function prototypes
+coding.h | header file with all function prototypes
 
 ## Directories
 ---

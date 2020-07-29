@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "coding.h"
 #include <stdio.h>
 /**
  * _strstr - function with two argument

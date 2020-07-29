@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * _isupper - function with 1 int type argument

@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * print_last_digit - function with one argument

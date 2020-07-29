@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * cap_string - function with one argument

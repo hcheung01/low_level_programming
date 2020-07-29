@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * print_diagonal - function with one integer argument

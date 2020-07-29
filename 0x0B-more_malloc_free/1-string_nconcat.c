@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "coding.h"
 int _strlen(char *s);
 
 /**

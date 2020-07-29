@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef _CODING_H_
+#define _CODING_H_
 #include <stdlib.h>
 
 int _putchar(char c);

@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * *create_array - function with two arguments

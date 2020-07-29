@@ -22,7 +22,7 @@ function_pointers.h | header file with function prototypes the simple operations
 ---
 Directory Name | Description
 ---|---
-holbertonschool-low_level_programming/0x0E-function_pointers/ | Main folder for all files
+codingschool-low_level_programming/0x0E-function_pointers/ | Main folder for all files
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic

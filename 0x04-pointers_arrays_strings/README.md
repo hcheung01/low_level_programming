@@ -24,7 +24,7 @@ File|Task
 8-print_array.c | prints n elements of an array of integers, followed by a new line
 9-strcpy.c | copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
 100-atoi.c | convert a string to an integer
-holberton.h | header file with all function prototypes
+coding.h | header file with all function prototypes
 
 ## Directories
 ---

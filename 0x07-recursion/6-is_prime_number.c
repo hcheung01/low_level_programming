@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "coding.h"
 int counter(int count, int n);
 /**
  * is_prime_number - function with one argument

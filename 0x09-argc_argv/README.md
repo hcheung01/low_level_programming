@@ -11,7 +11,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 0-whatsmyname.c | prints its name, followed by a new line
 1-args.c | prints the number of arguments passed into it
 2-args.c | prints all arguments it receives.

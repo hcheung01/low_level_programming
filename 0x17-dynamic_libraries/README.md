@@ -12,16 +12,16 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
-libholberton.so | dynamic library with all my functions
-holberton.h | primary header file with all function prototypes
+coding.h | header file with all function prototypes in this directory
+libcoding.so | dynamic library with all my functions
+coding.h | primary header file with all function prototypes
 1-create_dynamic_lib.sh | script to create library
 
 ## Directories
 ---
 Directory Name | Description
 ---|---
-holbertonschool-low_level_programming/0x17-dynamic_libraries | all files for .so
+codingschool-low_level_programming/0x17-dynamic_libraries | all files for .so
 
 ## How to compile C files for dynamic library
 gcc -g -fPIC -Wall -Werror -Wextra -pedantic *.c -shared -o <libary.so>

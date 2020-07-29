@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * print_diagsums - function with two arguments

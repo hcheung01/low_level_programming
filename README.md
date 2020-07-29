@@ -1,7 +1,7 @@
-## Low-Level programming & Algorithm Track at Holberton School
+## Low-Level programming & Algorithm Track at Coding School
 
 ## About
-This repository is one of the several tracks that I'm learning to become a Full Stack Software Engineer at Holberton School and below is a tree diagram of all files of what I've been working on:
+This repository is one of the several tracks that I'm learning to become a Full Stack Software Engineer at Coding School and below is a tree diagram of all files of what I've been working on:
 
 ## Files
 ```bash
@@ -34,7 +34,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 9-print_comb.c
 │   └── README.md
 ├── 0x02-functions_nested_loops
-│   ├── 0-holberton.c
+│   ├── 0-coding.c
 │   ├── 100-times_table.c
 │   ├── 104-fibonacci.c
 │   ├── 10-add.c
@@ -48,7 +48,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 7-print_last_digit.c
 │   ├── 8-24_hours.c
 │   ├── 9-times_table.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x03-more_functions_nested_loops
 │   ├── 0-isupper.c
@@ -63,7 +63,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 7-print_diagonal.c
 │   ├── 8-print_square.c
 │   ├── 9-fizz_buzz.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x04-pointers_arrays_strings
 │   ├── 0-reset_to_98.c
@@ -77,7 +77,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 7-puts_half.c
 │   ├── 8-print_array.c
 │   ├── 9-strcpy.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x05-pointers_arrays_strings
 │   ├── 0-strcat.c
@@ -92,7 +92,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 6-cap_string.c
 │   ├── 7-leet.c
 │   ├── 8-rot13.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x06-pointers_arrays_strings
 │   ├── 0-memset.c
@@ -104,7 +104,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 7-print_chessboard.c
 │   ├── 8-print_diagsums.c
 │   ├── 9-set_string.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x07-recursion
 │   ├── 0-puts_recursion.c
@@ -116,12 +116,12 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 5-sqrt_recursion.c
 │   ├── 6-is_prime_number.c
 │   ├── 7-is_palindrome.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x08-static_libraries
 │   ├── create_static_lib.sh
-│   ├── holberton.h
-│   ├── libholberton.a
+│   ├── coding.h
+│   ├── libcoding.a
 │   └── README.md
 ├── 0x09-argc_argv
 │   ├── 0-whatsmyname.c
@@ -130,7 +130,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 2-args.c
 │   ├── 3-mul.c
 │   ├── 4-add.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x0A-malloc_free
 │   ├── 0-create_array.c
@@ -139,7 +139,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 3-alloc_grid.c
 │   ├── 4-free_grid.c
 │   ├── 5-argstostr.c
-│   ├── holberton.h
+│   ├── coding.h
 │   ├── #README.md#
 │   └── README.md
 ├── 0x0B-more_malloc_free
@@ -149,7 +149,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 1-string_nconcat.c
 │   ├── 2-calloc.c
 │   ├── 3-array_range.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x0C-preprocessor
 │   ├── 0-object_like_macro.h
@@ -157,7 +157,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 2-main.c
 │   ├── 3-function_like_macro.h
 │   ├── 4-sum.h
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x0D-structures_typedef
 │   ├── 1-init_dog.c
@@ -187,7 +187,7 @@ This repository is one of the several tracks that I'm learning to become a Full 
 ├── 0x11-singly_linked_lists
 │   ├── 0-print_list.c
 │   ├── 100-first.c
-│   ├── 101-hello_holberton.asm
+│   ├── 101-hello_coding.asm
 │   ├── 1-list_len.c
 │   ├── 2-add_node.c
 │   ├── 3-add_node_end.c
@@ -216,14 +216,14 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 3-set_bit.c
 │   ├── 4-clear_bit.c
 │   ├── 5-flip_bits.c
-│   ├── holberton.h
+│   ├── coding.h
 │   └── README.md
 ├── 0x14-file_io
 │   ├── 0-read_textfile.c
 │   ├── 1-create_file.c
 │   ├── 2-append_text_to_file.c
 │   ├── 3-cp.c
-│   ├── holberton.h
+│   ├── coding.h
 │   ├── README.md
 │   └── Requiescat
 ├── 0x16-doubly_linked_lists
@@ -243,8 +243,8 @@ This repository is one of the several tracks that I'm learning to become a Full 
 │   ├── 100-operations.so
 │   ├── 100-tests.py
 │   ├── 1-create_dynamic_lib.sh
-│   ├── holberton.h
-│   ├── libholberton.so
+│   ├── coding.h
+│   ├── libcoding.so
 │   └── README.md
 ├── 0x19-hash_tables
 │   ├── 0-hash_table_create.c

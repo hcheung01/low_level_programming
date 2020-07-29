@@ -10,9 +10,9 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 create_static_lib.sh | creates a static library called liball.a from all the .c files
-libholberton.a | static library created including all function prototypes in holberton.h file
+libcoding.a | static library created including all function prototypes in coding.h file
 
 ## Directories
 ---

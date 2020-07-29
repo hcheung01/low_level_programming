@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "coding.h"
 
 int findLength(char *s);
 int helper(char *s, int len, int a);

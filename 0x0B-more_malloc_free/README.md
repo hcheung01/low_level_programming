@@ -10,7 +10,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 0-malloc_checked.c | allocates memory using malloc
 1-string_nconcat.c | concatenates two strings
 2-calloc.c |  allocates memory for an array, using malloc
@@ -22,7 +22,7 @@ holberton.h | header file with all function prototypes in this directory
 ---
 Directory Name | Description
 ---|---
-holbertonschool-low_level_programming/0x0B-more_malloc_free | Main files for all functions
+codingschool-low_level_programming/0x0B-more_malloc_free | Main files for all functions
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic

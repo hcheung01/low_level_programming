@@ -12,7 +12,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 0-create_array.c | creates an array of chars, and initializes it with a specific char
 1-strdup.c | returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter
 2-str_concat.c | concatenates two strings
@@ -24,7 +24,7 @@ holberton.h | header file with all function prototypes in this directory
 ---
 Directory Name | Description
 ---|---
-holbertonschool-low_level_programming/0x0A-malloc_free | Main files for all functions
+codingschool-low_level_programming/0x0A-malloc_free | Main files for all functions
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic

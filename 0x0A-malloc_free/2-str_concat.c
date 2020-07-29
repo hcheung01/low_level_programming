@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * *str_concat - function with two arguments

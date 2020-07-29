@@ -11,7 +11,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 0-object_like_macro.h | Create a header file that defines a macro named SIZE as an abbreviation for the token 1024
 1-pi.h | Create a header file that defines a macro named PI as an abbreviation for the token 3.14159265359
 2-main.c | Write a program that prints the name of the file it was compiled from, followed by a new line
@@ -22,7 +22,7 @@ holberton.h | header file with all function prototypes in this directory
 ---
 Directory Name | Description
 ---|---
-holbertonschool-low_level_programming/0x0C-preprocessor/ | Main folder including all C and headers files
+codingschool-low_level_programming/0x0C-preprocessor/ | Main folder including all C and headers files
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic

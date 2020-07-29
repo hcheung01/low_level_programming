@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "coding.h"
 
 /**
- * print_alphabet - check the code for Holberton School students.
+ * print_alphabet - check the code for Coding School students.
  *
  * Description: Print lower case alphabet from a - z
  * using a for loop.

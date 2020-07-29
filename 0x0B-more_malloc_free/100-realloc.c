@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "coding.h"
 
 /**
  * *_realloc - function with 3 parameter

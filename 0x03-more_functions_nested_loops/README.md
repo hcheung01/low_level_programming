@@ -28,7 +28,7 @@ File|Task
 9-fizz_buzz.c | program that prints the numbers from 1 to 100, followed by a new line.
 10-print_triangle.c | function that prints a triangle, followed by a new line.
 101-print_number.c |  prints an integer
-holberton.h | header file with all function prototypes
+coding.h | header file with all function prototypes
 
 ## Directories
 ---

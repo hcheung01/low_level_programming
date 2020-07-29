@@ -10,7 +10,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 0-binary_to_uint.c | function that converts a binary number to an unsigned int
 1-print_binary.c | function that prints the binary representation of a number.
 2-get_bit.c | function that returns the value of a bit at a given index
@@ -22,7 +22,7 @@ holberton.h | header file with all function prototypes in this directory
 ---
 Directory Name | Description
 ---|---
-/holbertonschool-low_level_programming/0x13-bit_manipulation | Main folder including all C programs and a header file
+/codingschool-low_level_programming/0x13-bit_manipulation | Main folder including all C programs and a header file
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic

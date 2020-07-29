@@ -28,7 +28,7 @@ lists.h | header file with all function prototypes in this directory
 ---
 Directory Name | Description
 ---|---
-/holbertonschool-low_level_programming/0x12-more_singly_linked_lists/ | main folder with all C files and a header file
+/codingschool-low_level_programming/0x12-more_singly_linked_lists/ | main folder with all C files and a header file
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic

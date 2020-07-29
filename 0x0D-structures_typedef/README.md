@@ -10,7 +10,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 dog.h | Define a new type dog_t as a new name for the type struct dog
 1-init_dog.c | initialize a variable of type struct dog
 2-print_dog.c | prints a struct dog
@@ -21,7 +21,7 @@ dog.h | Define a new type dog_t as a new name for the type struct dog
 ---
 Directory Name | Description
 ---|---
-holbertonschool-low_level_programming/0x0D-structures_typedef/ | Main folder for all functions and a header file
+codingschool-low_level_programming/0x0D-structures_typedef/ | Main folder for all functions and a header file
 
 ## How to compile
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic

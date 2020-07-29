@@ -11,7 +11,7 @@ This project in the Low Level Programming series is about:
 ---
 File|Task
 ---|---
-holberton.h | header file with all function prototypes in this directory
+coding.h | header file with all function prototypes in this directory
 0-memset.c | fills memory with a constant byte
 1-memcpy.c | copies memory area
 2-strchr.c | locates a character in a string

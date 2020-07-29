@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "coding.h"
 #include <stdio.h>
 
 int _atoi(char *s);

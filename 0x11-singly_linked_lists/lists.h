@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef _CODING_H_
+#define _CODING_H_
 #include <stdio.h>
 /**
  * struct list_s - singly linked list
@@ -8,7 +8,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for Coding project
  */
 typedef struct list_s
 {
