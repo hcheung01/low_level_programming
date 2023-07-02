@@ -1,7 +1,7 @@
-## Low-Level programming & Algorithm Track at Coding School
+## Low-Level programming & Algorithm
 
 ## About
-This repository is one of the several tracks that I'm learning to become a Full Stack Software Engineer at Coding School and below is a tree diagram of all files of what I've been working on:
+This repository is one of the several tracks that I'm learning to become a Full Stack Software Engineer and below is a tree diagram of all files of what I've been working on:
 
 ## Files
 ```bash
